@@ -43,12 +43,16 @@ main {
 }
 
 .perfil img {
-    width: 400px;
-    height: 400px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 6px solid #27217a;
+    .perfil img {
+        width: 400px;
+        height: 400px;
+        object-fit: contain;
+        border-radius: 50%;
+        border: 6px solid #27217a;
+        background: white;
+    }
 }
+   
 
 .informacoes h2 {
     font-size: 30px;
